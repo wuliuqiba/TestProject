@@ -1,8 +1,6 @@
 import controller.UserController;
 import pojo.TestPojo;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 //        Scanner a = new Scanner(System.in);
@@ -17,6 +15,8 @@ public class Main {
 
         UserController userController = new UserController();
         boolean flag = userController.addUser(testPojo);
+        System.out.println(flag);
+
         System.out.println(flag);
 
     }
